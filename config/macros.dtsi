@@ -34,3 +34,45 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
+macro_ae: macro_ae {
+compatible = "zmk,behavior-macro";
+label = "macro_ae";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LALT>, <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N8>, <&macro_release &kp LALT>;
+};
+macro_aebig: macro_aebig {
+compatible = "zmk,behavior-macro";
+label = "macro_aebig";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LALT>, <&macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N9 &kp KP_N6>, <&macro_release &kp LALT>;
+};
+macro_oe: macro_oe {
+compatible = "zmk,behavior-macro";
+label = "macro_oe";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LALT>, <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N4 &kp KP_N6>, <&macro_release &kp LALT>;
+};
+macro_oebig: macro_oebig {
+compatible = "zmk,behavior-macro";
+label = "macro_aobig";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LALT>, <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N4>, <&macro_release &kp LALT>;
+};
+macro_au: macro_au {
+compatible = "zmk,behavior-macro";
+label = "macro_au";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LALT>, <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N5 &kp KP_N2>, <&macro_release &kp LALT>;
+};
+macro_aubig: macro_aubig {
+compatible = "zmk,behavior-macro";
+label = "macro_aubig";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LALT>, <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N0>, <&macro_release &kp LALT>;
+};
+macro_esset: macro_esset {
+compatible = "zmk,behavior-macro";
+label = "macro_esset";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LALT>, <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N3>, <&macro_release &kp LALT>;
+};
